@@ -1,0 +1,9 @@
+<template>
+    <lightning-input label="First Name" name="firstName" onchange={NameHandler}></lightning-input>
+    <lightning-input label="Last Name" name="lastName" onchange={NameHandler}></lightning-input>
+    <lightning-input label="Title" name="title" onchange={NameHandler}></lightning-input>
+
+    <p>Full Name: {firstName} {lastName} </p>
+    <p> I'm {title}</p>
+
+</template>

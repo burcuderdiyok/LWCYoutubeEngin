@@ -1,0 +1,14 @@
+.mydiv{
+    background-color: rgb(203, 172, 172);
+    font-size: large;
+    margin: 10px;
+    border: 2px;
+    border-color: aquamarine;
+    border-style: dotted;
+    border-radius: 5px;
+    padding: 10px;
+}
+.score{
+    color: brown;
+    padding-left: 10px;
+}

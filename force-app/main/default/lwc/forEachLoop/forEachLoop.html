@@ -1,0 +1,13 @@
+<template>
+    <lightning-layout>
+        <div>
+            <template for:each={contacts} for:item="singleCon">
+                <li key={singleCon.id}>
+                    <p>Id:{singleCon.Id}</p>
+                    <p>Name:{singleCon.Name}</p>
+                    <p class="cls">Age:{singleCon.Age}</p>
+                </li>
+            </template>
+        </div>
+    </lightning-layout>
+</template>
